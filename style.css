@@ -8,3 +8,24 @@ img {
   height: auto;
   display: block;
 }
+
+@font-face {
+  font-family: "sonderregular";
+  src: url("fonts/sonderregular-webfont.woff2") format("woff2"), url("fonts/sonderregular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.forsidebaggrund {
+  background-image: url(img/forside.svg);
+  background-size: cover;
+  height: 100vh;
+}
+
+@media (max-width: 800px) {
+  .forsidetop h1 {
+    font-family: "sonder";
+    font-size: 5rem;
+    color: #b793ff;
+  }
+}
