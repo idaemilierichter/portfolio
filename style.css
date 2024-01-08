@@ -34,6 +34,13 @@ body {
 }
 
 @media (max-width: 1300px) {
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
   /*FORSIDE*/
 
   .forsidetop {
@@ -214,6 +221,264 @@ body {
     font-size: 25px;
     line-height: 1.5;
   }
+
+  /*TEMA 2*/
+
+  .tema2top {
+    text-align: center;
+  }
+
+  .tema2tekst h1 {
+    font-family: "sonderregular";
+    font-size: 60px;
+    font-size: 130px;
+    color: #b793ff;
+    margin-bottom: 50px;
+  }
+  .tema2tekst p {
+    font-family: "livvic";
+    font-size: 40px;
+    color: #b793ff;
+    margin-bottom: 100px;
+  }
+
+  .tema2top a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 40px;
+    background-color: #b793ff;
+    color: white;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+  }
+
+  .tema2top a:hover {
+    color: black;
+  }
+
+  .tema2billede img {
+    width: 1000px;
+    margin-top: 100px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+  }
+
+  .html,
+  .css {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .htmlheader {
+    background-color: #d8ffd9;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .htmlheader h2 {
+    font-family: "sonderregular";
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .htmltekst {
+    background-color: #d8ffd9;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .htmltekst p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .htmlbillede2 img {
+    border-radius: 50px;
+    width: 1000px;
+  }
+
+  .cssheader {
+    background-color: #d8ffd9;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .cssheader h2 {
+    font-family: "sonderregular";
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .csstekst {
+    background-color: #d8ffd9;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .csstekst p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .cssbillede img {
+    width: 1000px;
+    border-radius: 50px;
+  }
+
+  /*TEMA 3*/
+  .tema3top {
+    text-align: center;
+  }
+
+  .tema3tekst h1 {
+    font-family: "sonderregular";
+    font-size: 60px;
+    font-size: 130px;
+    color: #b793ff;
+    margin-bottom: 50px;
+  }
+  .tema3tekst p {
+    font-family: "livvic";
+    font-size: 40px;
+    color: #b793ff;
+    margin-bottom: 100px;
+  }
+
+  .tema3top a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 40px;
+    background-color: #b793ff;
+    color: white;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+  }
+
+  .tema3top a:hover {
+    color: black;
+  }
+
+  .tema3billede img {
+    width: 1000px;
+    margin-top: 100px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+
+  .t3research,
+  .t3kodning,
+  .t3test {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .t3header {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+    margin-top: 80px;
+  }
+
+  .t3header h2 {
+    font-family: "sonderregular";
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .researchtekst1,
+  .researchtekst2,
+  .researchtekst3,
+  .reviewtekst,
+  .processtekst,
+  .takside,
+  .kodetekst1,
+  .kodetekst2,
+  .kodetekst3,
+  .testtekst1 {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .t3research img {
+    border-radius: 50px;
+    width: 1000px;
+  }
+
+  .t3research p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .t3kodning img {
+    border-radius: 50px;
+    width: 1000px;
+  }
+
+  .t3kodning p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .t3test img {
+    border-radius: 50px;
+    width: 1000px;
+  }
+
+  .t3test p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .testknapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .testknapper a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 30px;
+    background-color: #ffd2f6;
+    color: black;
+    border-radius: 75px;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+  }
+
+  .testknapper a:hover {
+    color: #b793ff;
+  }
+
+  /*TEMA 4*/
 
   /*FOOTER*/
 
