@@ -12,7 +12,168 @@
 </head>
 
 <body>
+    <header>
 
+    </header>
+
+    <main>
+        <section class="tema4top">
+            <div class="tema4tekst">
+                <h1>Tema 4</h1>
+                <p>Animation<br><br>"Truffle Hunt"</p>
+                <a href="https://idaemilierichter.dk/kea/04_animation/website/spil.html">Gå til
+                    spillet </a>
+            </div>
+            <div class="tema4billede">
+                <img src="img/t4spil1.webp" alt="Tema 4 billede">
+            </div>
+        </section>
+
+        <section class="t4indhold">
+            <div class="t4skitser1">
+                <p>I Tema 4 gik vi igang med at lære om animation og Javascript. Formålet med temaet var at udarbejde et
+                    simpelt og interaktivt spil individuelt. <br><br>
+                    Jeg ville igen gerne udvikle noget, som jeg havde en personlig relation til, og jeg valgte derfor at
+                    tage inspiration fra min seneste ferie til Italien. <br><br>
+                    Ideen kom til mig rimelig hurtigt og jeg begyndte derefter at finde inspiration på nettet til mine
+                    skitser over baggrunde, UI-elementer, figur-elementer og spil-elementer. <br><br>
+                    Til højre kan i se skitserne af de baggrunde jeg gerne vil have med - tegnet i hånden. Jeg ønskede
+                    at min startskærm skulle give en stemning af at kigge udover de italienske vinmarker. Derudover
+                    havde jeg skitseret den villa som vi boede i. Spillet hedder Truffle Hunt og handler om at den mand
+                    som bor i villaen skal have samlet trøfler til hans aftensmad, ved hjælp af hans trøffelgris.
+                    <br><br>
+                    Selve baggrunden til spillet ville jeg skitsere som at spilleren er ude i de italienske skove hvor
+                    trøfler kan findes.
+                </p>
+            </div>
+            <div class="t4skitserimg1">
+                <img src="img/t4skitse1.webp" alt="Skitse af startsiden til spil">
+            </div>
+            <div class="t4skitserimg2">
+                <img src="img/t4skitse3.webp" alt="Skitse af spilbaggrund til spil">
+            </div>
+            <div class="t4skitser2">
+                <p>Jeg skulle herefter igang med at skitsere mine figur-elementer. Jeg gik igang med at skitsere grisen,
+                    som jeg ikke ønskede skulle stå lige-på men mere fra siden, så det får et mere 3-dimensionelt
+                    udseende. <br><br>
+                    Derefter gik jeg igang med at skitsere landmanden,. Det var vigtigt for mig at min hovedfigur ikke
+                    er “twinning”, så derfor ændrede jeg på hans arme og fik ham til at se mere livlig ud. Jeg ville
+                    også her gøre brug af line of action, men det var svært for mig at tegne. Jeg ønskede også at tegne
+                    kurve, som langsomt blev fyldt op med trøfler, hver gang at brugeren indsamlede en trøffel. Så her
+                    har jeg skitseret 5 af dem, men endte med at lave 6 i alt. <br><br>
+                    Jeg skitserede derefter 3 forskellige spilelementer. Den gode var trøflen og de dårlige var sten og
+                    hundelort. <br><br>
+                    Mine UI elementer var en pointtavle og et ur, da jeg ikke ønskede at have liv med. <br><br>
+                    Ud fra disse skitser, kunne jeg også lave en paper prototype, hvor jeg på billeder kunne vise
+                    hvordan spillet fungerer i praksis. Hermed bliver konceptet og interraktionen testet af.
+                </p>
+            </div>
+            <div class="t4skitserimg3">
+                <img src="img/t4skitse2.webp" alt="Skitse af figurelementer til spil">
+            </div>
+            <div class="t4skitserimg4">
+                <img src="img/t4skitse4.webp" alt="Skitse af spilelementer til spil">
+            </div>
+
+            <div class="t4illustrationer1">
+                <p>Ud fra mine skitser so forberedelse, kunne jeg nu gå igang med at rentegne dem i Adobe Illustrator.
+                    <br><br>
+                    Jeg tog udgangspunkt i stilen Flat Design 2, hvor mit mål var at lave udtrykket sjovt, hyggeligt og
+                    med rimelig bløde kanter - dette går også igen i typografien jeg har valgt. Det skulle ikke være for
+                    detaljeret men stadig med realistiske skygger og highlights. Jeg ville gerne bruge naturtro farver,
+                    da spillet tager udgangspunkt i en situation der potentielt kan ske i virkeligheden. Figurene bærer
+                    præg af at være computergenereret, da jeg ikke ønskede et “tegnet” udseende. <br><br>
+                    Begge baggrunde ønskede jeg at give et atmosfærisk perspektiv for at skabe dybde og gøre udseendet
+                    mere spændende at kigge på. <br><br>
+                    Efter skitserne var færdige, kunne jeg nu gå igang med at animere. Det er vigtigt at kunne kende
+                    forskel på figurernes container og sprite, så man ved hvad der skal tages fat i, i en given
+                    animation.
+                    Jeg lavede fald-animation på mine 3 spil elementers container., samt fade- og rotate-animationen på
+                    deres sprite. <br><br>
+                    Via Javascript kunne jeg tilføje animationerne som class til den ønskede figur, samt tilføje en
+                    eventlistener der kunne lytte efter hvornår brugeren klikkede eller hvornår animationen slutter og
+                    skal restartes..
+                </p>
+                <a href="https://idaemilierichter.dk/kea/04_animation/website/assets.html">Se hele assetlisten her</a>
+            </div>
+            <div class="t4illustration1">
+                <img src="img/t4spil2.webp" alt="Rentegning af spil">
+            </div>
+
+            <div class="t4kurve">
+                <img src="img/t4kurve.svg" alt="Kurve til spil">
+            </div>
+            <section class="spilelementer">
+                <div id="truffle_container">
+                    <div id="truffle_sprite"></div>
+                </div>
+                <div id="stone_container">
+                    <div id="stone_sprite"></div>
+                </div>
+                <div id="poop_container">
+                    <div id="poop_sprite"></div>
+                </div>
+            </section>
+            <div class="play_knap"></div>
+
+
+            <div class="t4illustrationer2">
+                <p>Mine UI elementer bestod af knapper som jeg gerne ville have til at stå at pulsere, og dermed
+                    fremhæve at det var nogle man trykke på. Dette kunne jeg gøre ved hjælp af scale i CSS.
+                    <br><br>Samtidig ønskede jeg indikatorer i form af pointtæller, kurv og tid.
+                    <br><br>Viseren fik jeg fik at snurre rundt ved hjælp af rotate i CSS. Kurvene fik jeg til at skifte
+                    ved hvert andet point, ved at lave if- og if else reglen. Udfordringen var dog desværre at det tog
+                    lang tid for billederne at loade og derved er der flere gange hvor kurven helt forsvinde.
+                    <br><br>Til venstre kan min infoskærm og level complete skærm ses.
+                    Jeg fik desværre ikke mine figurelementer med på mit endelige spil, da jeg ikke kunne få dem til at
+                    se ud som jeg gerne ville have dem i Illustrator.
+                </p>
+            </div>
+            <div class="t4illustration2">
+                <img src="img/t4spil5.webp" alt="Illustration af hjælp siden i spil">
+            </div>
+            <div class="t4illustration3">
+                <img src="img/t4spil4.webp" alt="Illustration af level complete siden i spil">
+            </div>
+
+
+            <div class="t4header">
+                <h2>Kodning</h2>
+            </div>
+            <div class="t4kodningtekst">
+                <p>Som en del af min kode, skulle jeg lave et aktivitetsdiagram som kan ses til højre og et state
+                    machine diagram som kan ses herunder. <br><br>Aktivitetsdiagrammet beskriver en aktivitet som
+                    bestående af detaljerede handlinger og beslutninger og jeg kunne dermed bruge det til at
+                    beskrive
+                    mit interaktive system.
+                    <br><br>Mit state machine diagram eller også kaldet tilstandsdiagram, minder om
+                    aktivitetsdiagrammet
+                    men er mere detaljeret. Dette viser nemlig også de forskellige tilstande som spillet er i.
+                    <br><br>Jeg brugte det til at 1-1 kode udfra, som gjorde det langt mere overskueligt. .
+                </p>
+            </div>
+            <div class="t4aktivitet">
+                <img src="img/t4aktivitetsdiagram.png" alt="Aktivitetsdiagram til spil">
+            </div>
+            <div class="t4statemachine">
+                <img src="img/t4statemachine.png" alt="State machine diagram til spil">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footermenu">
+            <a href="index.html">Forside</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="ommig.html">Om mig</a>
+        </div>
+        <div class="somelinks">
+            <a href="https://www.instagram.com/_idaemilie_/"> <img src="img/instagram.svg" alt="Instagram"></a>
+            <a href="https://twitter.com/_idaemilie"> <img src="img/twitter.svg" alt="Twitter"></a>
+            <a href="https://www.pinterest.dk/idaemilierichter/"> <img src="img/pinterest.svg" alt="pinterest"></a>
+        </div>
+    </footer>
     <link rel="stylesheet" href="script.js">
 </body>
 

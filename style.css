@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-img {
+img,
+video {
   width: 100%;
   height: auto;
   display: block;
@@ -480,6 +481,367 @@ body {
 
   /*TEMA 4*/
 
+  .tema4top {
+    text-align: center;
+  }
+
+  .tema4tekst h1 {
+    font-family: "sonderregular";
+    font-size: 60px;
+    font-size: 130px;
+    color: #b793ff;
+    margin-bottom: 50px;
+  }
+  .tema4tekst p {
+    font-family: "livvic";
+    font-size: 40px;
+    color: #b793ff;
+    margin-bottom: 100px;
+  }
+
+  .tema4top a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 40px;
+    background-color: #b793ff;
+    color: white;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+  }
+
+  .tema4top a:hover {
+    color: black;
+  }
+
+  .topknapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .tema4billede img {
+    width: 1000px;
+    margin-top: 100px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+
+  .t4skitser1,
+  .t4skitser2,
+  .t4illustrationer1,
+  .t4illustrationer2,
+  .t4kodningtekst {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+    margin-left: 50px;
+  }
+
+  .t4illustrationer1 p {
+    padding-bottom: 80px;
+  }
+
+  .t4illustrationer1 a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 30px;
+    background-color: #fffcf6;
+    color: black;
+    border-radius: 75px;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    margin-left: 190px;
+  }
+
+  .t4illustrationer1 a:hover {
+    color: #ffd2f6;
+  }
+
+  .t4indhold p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .t4indhold img {
+    border-radius: 50px;
+    width: 1000px;
+  }
+
+  .t4indhold {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .t4header {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+
+  .t4indhold h2 {
+    font-family: "sonderregular";
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .spilelementer {
+    display: flex;
+    gap: 100px;
+  }
+
+  @keyframes pulse {
+    0% {
+      scale: 1;
+    }
+    50% {
+      scale: 1.1;
+    }
+    100% {
+      scale: 1;
+    }
+  }
+
+  @keyframes drej {
+    0% {
+      transform: rotate(0);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .play_knap {
+    width: 80%;
+    position: relative;
+    aspect-ratio: 79/29;
+    background-image: url(img/t4play.svg);
+    background-size: cover;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+    margin-left: 110px;
+  }
+
+  #truffle_container {
+    width: 30%;
+    aspect-ratio: 4/5;
+    position: relative;
+    top: 15%;
+    animation: drej 2s infinite;
+  }
+  #truffle_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/t4truffle.svg);
+    background-size: cover;
+  }
+
+  #poop_container {
+    width: 30%;
+    aspect-ratio: 4/5;
+    position: relative;
+    top: 15%;
+    animation: drej 2s infinite;
+  }
+  #poop_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/t4poop.svg);
+    background-size: cover;
+  }
+
+  #stone_container {
+    width: 30%;
+    aspect-ratio: 4/5;
+    position: relative;
+    top: 15%;
+    animation: drej 2s infinite;
+  }
+  #stone_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/t4stone.svg);
+    background-size: cover;
+  }
+
+  /*TEMA 5*/
+  .tema5top {
+    text-align: center;
+  }
+
+  .tema5tekst h1 {
+    font-family: "sonderregular";
+    font-size: 60px;
+    font-size: 130px;
+    color: #b793ff;
+    margin-bottom: 50px;
+  }
+  .tema5tekst p {
+    font-family: "livvic";
+    font-size: 40px;
+    color: #b793ff;
+    margin-bottom: 100px;
+  }
+
+  .tema5top a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 40px;
+    background-color: #b793ff;
+    color: white;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+  }
+
+  .tema5top a:hover {
+    color: black;
+  }
+
+  .topknapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    max-width: 600px;
+    margin-left: 200px;
+  }
+
+  .tema5billede img {
+    width: 1000px;
+    margin-top: 100px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+
+  .t5indhold {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .t5indhold p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .t5indhold img {
+    border-radius: 50px;
+    width: 1000px;
+  }
+
+  .videositetekst1,
+  .videositetekst2,
+  .virksomhedgammel,
+  .virksomhedny1,
+  .virksomhedny2,
+  .virksomhedny3,
+  .virksomhedny4,
+  .virksomhedny5,
+  .virksomhedny6,
+  .virksomhedny7,
+  .virksomhedny8,
+  .virksomhedny9 {
+    background-color: #fffad5;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .t5header {
+    background-color: #fffad5;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+    margin-top: 80px;
+  }
+
+  .t5header h2 {
+    font-family: "sonderregular";
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .t5knapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .t5knapper a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 30px;
+    background-color: #fffad5;
+    color: black;
+    border-radius: 75px;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+  }
+
+  .t5knapper a:hover {
+    color: #b793ff;
+  }
+
+  iframe {
+    aspect-ratio: 16/9;
+    width: 1000px;
+    height: auto;
+    border-radius: 50px;
+  }
+
+  video {
+    max-width: 1000px;
+    height: auto;
+    border-radius: 50px;
+  }
+
+  .videositebilleder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .videositebilleder img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+  }
+
+  .billederbageri {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .billederbageri img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+  }
+
   /*FOOTER*/
 
   footer {
@@ -520,7 +882,7 @@ body {
 
 @media (min-width: 1300px) {
   /*NAVIGATIONS MENU*/
-
+  /*
   nav ul {
     display: flex;
     flex-direction: row;
@@ -542,6 +904,7 @@ body {
   a:hover {
     color: #b793ff;
   }
+*/
 
   /*FORSIDE*/
 
