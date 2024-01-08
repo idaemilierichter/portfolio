@@ -29,7 +29,13 @@ img {
   height: 100vh;
 }
 
+body {
+  background-color: #fffcf6;
+}
+
 @media (max-width: 1300px) {
+  /*FORSIDE*/
+
   .forsidetop {
     padding-left: 500px;
     padding-top: 430px;
@@ -48,6 +54,8 @@ img {
     padding-left: 300px;
     padding-top: 60px;
   }
+
+  /*PORTFOLIO*/
 
   .portfoliotema {
     text-align: center;
@@ -71,9 +79,183 @@ img {
     color: #b793ff;
     padding-bottom: 85px;
   }
+
+  /*OM MIG*/
+
+  .ommigtop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .ommigbillede img {
+    width: 900px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .ommigtoptekst {
+    background-color: #ffecbb;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+    margin-bottom: 100px;
+  }
+
+  .ommigtoptekst h2 {
+    font-family: "sonderregular";
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+
+  .ommigtoptekst p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .cv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .cvoverskift {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .cvoverskift h2 {
+    font-family: "sonderregular";
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .cvskills {
+    background-color: #ffd2f6;
+    width: 700px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .cvskills h3 {
+    font-family: "sonderregular";
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  .cvskills ul {
+    list-style: none;
+    font-family: "livvic";
+    font-size: 25px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+  }
+
+  .hvemerjeg {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .hvemerjeg h3 {
+    font-family: "sonderregular";
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+
+  .hvemerjeg p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .erfaring {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .erfaring h3 {
+    font-family: "sonderregular";
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+
+  .erfaring p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .uddannelse {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 50px;
+  }
+
+  .uddannelse h3 {
+    font-family: "sonderregular";
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+
+  .uddannelse p {
+    font-family: "livvic";
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  /*FOOTER*/
+
+  footer {
+    background-color: #b793ff;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 150px;
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+  }
+
+  .footermenu {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "sonderregular";
+    font-size: 30px;
+    gap: 100px;
+  }
+
+  footer a:hover {
+    color: black;
+  }
+
+  .somelinks {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
 }
 
 @media (min-width: 1300px) {
+  /*NAVIGATIONS MENU*/
+
   nav ul {
     display: flex;
     flex-direction: row;
@@ -96,6 +278,8 @@ img {
     color: #b793ff;
   }
 
+  /*FORSIDE*/
+
   .forsidetop {
     padding-left: 800px;
     padding-top: 430px;
@@ -116,6 +300,8 @@ img {
     padding-top: 60px;
     min-width: 2000px;
   }
+
+  /*PORTFOLIO*/
 
   .portfoliotema {
     text-align: center;
