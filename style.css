@@ -20,12 +20,123 @@ img {
   background-image: url(img/forside.svg);
   background-size: cover;
   height: 100vh;
+  max-width: 1200px;
 }
 
-@media (max-width: 800px) {
+.portfoliobaggrund {
+  background-image: url(img/portfolio.svg);
+  background-size: cover;
+  height: 100vh;
+}
+
+@media (max-width: 1300px) {
+  .forsidetop {
+    padding-left: 500px;
+    padding-top: 430px;
+  }
+
   .forsidetop h1 {
-    font-family: "sonder";
-    font-size: 5rem;
+    font-family: "sonderregular";
+    font-size: 130px;
     color: #b793ff;
+  }
+
+  .forsidetop h2 {
+    font-family: "sonderregular";
+    font-size: 50px;
+    color: #b793ff;
+    padding-left: 300px;
+    padding-top: 60px;
+  }
+
+  .portfoliotema {
+    text-align: center;
+    padding-top: 130px;
+  }
+
+  .portfoliotema a {
+    font-family: "sonderregular";
+    font-size: 110px;
+    color: #b793ff;
+    text-decoration: none;
+  }
+
+  .portfoliotema a:hover {
+    color: #ffd2f6;
+  }
+
+  .portfoliotema h2 {
+    font-family: "livvic";
+    font-size: 40px;
+    color: #b793ff;
+    padding-bottom: 85px;
+  }
+}
+
+@media (min-width: 1300px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 500px;
+    justify-content: center;
+    padding-top: 100px;
+    min-width: 2800px;
+  }
+
+  li a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: "sonderregular";
+    font-size: 35px;
+  }
+
+  a:hover {
+    color: #b793ff;
+  }
+
+  .forsidetop {
+    padding-left: 800px;
+    padding-top: 430px;
+  }
+
+  .forsidetop h1 {
+    font-family: "sonderregular";
+    font-size: 220px;
+    color: #b793ff;
+    min-width: 2000px;
+  }
+
+  .forsidetop h2 {
+    font-family: "sonderregular";
+    font-size: 70px;
+    color: #b793ff;
+    padding-left: 800px;
+    padding-top: 60px;
+    min-width: 2000px;
+  }
+
+  .portfoliotema {
+    text-align: center;
+    padding-top: 130px;
+  }
+
+  .portfoliotema a {
+    font-family: "sonderregular";
+    font-size: 110px;
+    color: #b793ff;
+    text-decoration: none;
+  }
+
+  .portfoliotema a:hover {
+    color: #ffd2f6;
+  }
+
+  .portfoliotema h2 {
+    font-family: "livvic";
+    font-size: 40px;
+    color: #b793ff;
+    padding-bottom: 85px;
   }
 }
