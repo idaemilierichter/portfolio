@@ -21,17 +21,85 @@ video {
   background-image: url(img/forside.svg);
   background-size: cover;
   height: 100vh;
-  max-width: 1200px;
+  z-index: -1;
 }
 
 .portfoliobaggrund {
   background-image: url(img/portfolio.svg);
   background-size: cover;
   height: 100vh;
+  z-index: -1;
 }
 
 body {
   background-color: #fffcf6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+.forsidebaggrund,
+.portfoliobaggrund {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.forsidebaggrund .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 500px;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 35px;
+  font-family: "sonderregular";
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.navbar-links li a:hover {
+  color: #b793ff;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50px;
+  height: 50px;
+}
+
+.toggle-button .bar {
+  height: 6px;
+  width: 100%;
+  background-color: black;
+  border-radius: 75px;
 }
 
 @media (max-width: 1300px) {
@@ -42,11 +110,53 @@ body {
     align-items: center;
     margin-top: 50px;
   }
+
+  .navbar {
+    background-color: #b793ff;
+    border-bottom-right-radius: 25%;
+    width: 40%;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links li a {
+    color: white;
+  }
+  .navbar-links li a:hover {
+    color: black;
+  }
+
   /*FORSIDE*/
 
   .forsidetop {
     padding-left: 500px;
     padding-top: 430px;
+    position: relative;
   }
 
   .forsidetop h1 {
@@ -67,7 +177,7 @@ body {
 
   .portfoliotema {
     text-align: center;
-    padding-top: 130px;
+    padding-top: 90px;
   }
 
   .portfoliotema a {
@@ -96,6 +206,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    margin-top: 100px;
   }
 
   .ommigbillede img {
@@ -227,6 +338,7 @@ body {
 
   .tema2top {
     text-align: center;
+    margin-top: 100px;
   }
 
   .tema2tekst h1 {
@@ -341,6 +453,7 @@ body {
   /*TEMA 3*/
   .tema3top {
     text-align: center;
+    margin-top: 100px;
   }
 
   .tema3tekst h1 {
@@ -483,6 +596,7 @@ body {
 
   .tema4top {
     text-align: center;
+    margin-top: 100px;
   }
 
   .tema4tekst h1 {
@@ -679,6 +793,7 @@ body {
   /*TEMA 5*/
   .tema5top {
     text-align: center;
+    margin-top: 100px;
   }
 
   .tema5tekst h1 {
@@ -881,36 +996,11 @@ body {
 }
 
 @media (min-width: 1300px) {
-  /*NAVIGATIONS MENU*/
-  /*
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 500px;
-    justify-content: center;
-    padding-top: 100px;
-    min-width: 2800px;
-  }
-
-  li a {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-family: "sonderregular";
-    font-size: 35px;
-  }
-
-  a:hover {
-    color: #b793ff;
-  }
-*/
-
   /*FORSIDE*/
 
   .forsidetop {
     padding-left: 800px;
-    padding-top: 430px;
+    padding-top: 350px;
   }
 
   .forsidetop h1 {
@@ -932,13 +1022,17 @@ body {
   /*PORTFOLIO*/
 
   .portfoliotema {
+    display: grid;
+    grid-template-columns: 900px 900px;
     text-align: center;
-    padding-top: 130px;
+    padding-top: 170px;
+    gap: 100px;
+    padding-left: 450px;
   }
 
   .portfoliotema a {
     font-family: "sonderregular";
-    font-size: 110px;
+    font-size: 170px;
     color: #b793ff;
     text-decoration: none;
   }
@@ -949,8 +1043,47 @@ body {
 
   .portfoliotema h2 {
     font-family: "livvic";
-    font-size: 40px;
+    font-size: 50px;
     color: #b793ff;
     padding-bottom: 85px;
+  }
+
+  footer {
+    background-color: #b793ff;
+    padding-top: 180px;
+    text-align: center;
+    padding-bottom: 180px;
+    margin-top: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+  }
+
+  .footermenu {
+    margin-bottom: 180px;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "sonderregular";
+    font-size: 40px;
+    gap: 100px;
+  }
+
+  footer a:hover {
+    color: black;
+  }
+
+  .somelinks {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+  }
+
+  .somelinks img {
+    width: 90px;
   }
 }
