@@ -43,8 +43,6 @@ body,
   box-sizing: border-box;
 }
 
-/*NAV BAR OG BURGERMENU*/
-
 .forsidebaggrund .navbar {
   display: flex;
   justify-content: center;
@@ -634,7 +632,8 @@ body,
   .t3grid4billeder,
   .t2hiddengrid1,
   .t2hiddengrid2,
-  .t3testgrid {
+  .t3testgrid,
+  .t3testgrid2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
