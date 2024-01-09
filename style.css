@@ -1042,6 +1042,126 @@ body,
     min-width: 2000px;
   }
 
+  /*OM MIG*/
+
+  .ommigtop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 280px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .ommigtoptekst {
+    order: 1;
+    background-color: #ffecbb;
+    width: 1200px;
+    height: 1000px;
+    border-radius: 50px;
+    padding: 130px;
+    margin-bottom: 100px;
+  }
+
+  .ommigbillede {
+    order: 2;
+  }
+
+  .ommigbillede img {
+    width: 700px;
+    height: 1000px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .ommigtoptekst h2 {
+    font-family: "sonderregular";
+    font-size: 100px;
+    margin-bottom: 70px;
+  }
+
+  .ommigtoptekst p {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .cv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 200px;
+  }
+
+  .cvoverskift {
+    text-align: center;
+    background-color: #ffd2f6;
+    width: 2300px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+
+  .cvoverskift h2 {
+    font-family: "sonderregular";
+    font-size: 130px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .ommiggrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 220px;
+  }
+
+  .ommiggrid2 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .sprog {
+    margin-top: 900px;
+  }
+
+  .cv h3 {
+    font-family: "sonderregular";
+    font-size: 80px;
+    margin-bottom: 50px;
+  }
+
+  .cv p {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .cv ul li {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+    list-style: none;
+  }
+
+  .cvskills {
+    background-color: #ffd2f6;
+    width: 700px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .hvemerjeg,
+  .erfaring,
+  .uddannelse {
+    background-color: #ffd2f6;
+    width: 1400px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
   /*PORTFOLIO*/
 
   .portfoliotema {
