@@ -336,6 +336,14 @@ body,
 
   /*TEMA 2*/
 
+  .htmlbillede2 {
+    order: 2;
+  }
+
+  .htmlbillede1 {
+    order: 1;
+  }
+
   .tema2top {
     text-align: center;
     margin-top: 100px;
@@ -1160,6 +1168,332 @@ body,
     width: 1400px;
     border-radius: 50px;
     padding: 100px;
+  }
+
+  /*TEMA 2*/
+
+  .tema2top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 280px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .tema2top h1 {
+    font-family: "sonderregular";
+    font-size: 220px;
+    color: #b793ff;
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .tema2top img {
+    width: 1200px;
+    border-radius: 100px;
+  }
+
+  .tema2top p {
+    font-family: "livvic";
+    font-size: 50px;
+    color: #b793ff;
+    padding-bottom: 250px;
+  }
+
+  .tema2top a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 50px;
+    background-color: #b793ff;
+    color: white;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-right: 110px;
+    padding-bottom: 40px;
+    padding-left: 110px;
+  }
+
+  .tema2top a:hover {
+    color: black;
+  }
+
+  .html {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 200px;
+  }
+
+  .html p {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .htmlheader {
+    text-align: center;
+    background-color: #d8ffd9;
+    width: 1400px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+
+  .htmlheader h2 {
+    font-family: "sonderregular";
+    font-size: 130px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .htmltekst {
+    background-color: #d8ffd9;
+    width: 1400px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .htmlbillede1 img {
+    width: 700px;
+    height: 2250px;
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  .htmlbillede2 img {
+    width: 1400px;
+    border-radius: 100px;
+    margin-top: 70px;
+  }
+
+  .t3gridhtml {
+    order: 2;
+  }
+
+  .t3gridhtml2 {
+    order: 1;
+  }
+
+  .css {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 230px;
+    margin-top: 200px;
+    margin-right: 50px;
+  }
+
+  .css p {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .cssgrid1 {
+    order: 2;
+  }
+
+  .cssgrid2 {
+    order: 1;
+  }
+
+  .css img {
+    width: 1500px;
+  }
+
+  .cssheader {
+    text-align: center;
+    background-color: #d8ffd9;
+    width: 500px;
+    border-radius: 50px;
+    margin-bottom: 70px;
+  }
+
+  .cssheader h2 {
+    font-family: "sonderregular";
+    font-size: 130px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .csstekst {
+    background-color: #d8ffd9;
+    width: 500px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  /*TEMA 3*/
+
+  .tema3top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .tema3top h1 {
+    font-family: "sonderregular";
+    font-size: 220px;
+    color: #b793ff;
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .tema3top img {
+    width: 1300px;
+    border-radius: 100px;
+    margin-top: 150px;
+  }
+
+  .tema3top p {
+    font-family: "livvic";
+    font-size: 50px;
+    color: #b793ff;
+    padding-bottom: 250px;
+  }
+
+  .tema3top a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 50px;
+    background-color: #b793ff;
+    color: white;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-right: 110px;
+    padding-bottom: 40px;
+    padding-left: 110px;
+  }
+
+  .tema3top a:hover {
+    color: black;
+  }
+
+  .tema3tekst {
+    order: 2;
+  }
+
+  .tema3billede {
+    order: 1;
+  }
+
+  /*TEMA 4*/
+
+  .tema4top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 280px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .tema4top h1 {
+    font-family: "sonderregular";
+    font-size: 220px;
+    color: #b793ff;
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .tema4top img {
+    width: 1200px;
+    border-radius: 100px;
+    margin-top: 150px;
+  }
+
+  .tema4top p {
+    font-family: "livvic";
+    font-size: 50px;
+    color: #b793ff;
+    padding-bottom: 250px;
+  }
+
+  .tema4top a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 50px;
+    background-color: #b793ff;
+    color: white;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-right: 110px;
+    padding-bottom: 40px;
+    padding-left: 110px;
+  }
+
+  .tema4top a:hover {
+    color: black;
+  }
+
+  /*TEMA 5*/
+
+  .tema5top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .tema5top h1 {
+    font-family: "sonderregular";
+    font-size: 220px;
+    color: #b793ff;
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .tema5top img {
+    width: 1000px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+  }
+
+  .tema5top p {
+    font-family: "livvic";
+    font-size: 50px;
+    color: #b793ff;
+    padding-bottom: 150px;
+  }
+
+  .tema5top a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 50px;
+    background-color: #b793ff;
+    color: white;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-right: 110px;
+    padding-bottom: 40px;
+    padding-left: 110px;
+  }
+
+  .tema5top a:hover {
+    color: black;
+  }
+
+  .tema5tekst {
+    order: 2;
+  }
+
+  .tema5billede {
+    order: 1;
+  }
+
+  .topknapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
   }
 
   /*PORTFOLIO*/
