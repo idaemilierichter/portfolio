@@ -661,7 +661,7 @@ body,
   .t4illustrationer1,
   .t4illustrationer2,
   .t4kodningtekst {
-    background-color: #ffd2f6;
+    background-color: #aaaeff;
     width: 900px;
     border-radius: 50px;
     padding: 50px;
@@ -708,7 +708,7 @@ body,
   }
 
   .t4header {
-    background-color: #ffd2f6;
+    background-color: #aaaeff;
     width: 900px;
     border-radius: 50px;
     padding: 50px;
@@ -1054,124 +1054,33 @@ body,
     min-width: 2000px;
   }
 
-  /*OM MIG*/
+  /*PORTFOLIO*/
 
-  .ommigtop {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 280px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
-
-  .ommigtoptekst {
-    order: 1;
-    background-color: #ffecbb;
-    width: 1200px;
-    height: 1000px;
-    border-radius: 50px;
-    padding: 130px;
-    margin-bottom: 100px;
-  }
-
-  .ommigbillede {
-    order: 2;
-  }
-
-  .ommigbillede img {
-    width: 700px;
-    height: 1000px;
-    object-fit: cover;
-    border-radius: 50px;
-  }
-
-  .ommigtoptekst h2 {
-    font-family: "sonderregular";
-    font-size: 100px;
-    margin-bottom: 70px;
-  }
-
-  .ommigtoptekst p {
-    font-family: "livvic";
-    font-size: 30px;
-    line-height: 1.5;
-  }
-
-  .cv {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    margin-bottom: 200px;
-  }
-
-  .cvoverskift {
+  .portfoliotema {
+    display: grid;
+    grid-template-columns: 900px 900px;
     text-align: center;
-    background-color: #ffd2f6;
-    width: 2300px;
-    border-radius: 50px;
-    margin-bottom: 50px;
-  }
-
-  .cvoverskift h2 {
-    font-family: "sonderregular";
-    font-size: 130px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-
-  .ommiggrid {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 220px;
-  }
-
-  .ommiggrid2 {
-    display: flex;
-    flex-direction: column;
+    padding-top: 170px;
     gap: 100px;
+    padding-left: 450px;
   }
 
-  .sprog {
-    margin-top: 900px;
-  }
-
-  .cv h3 {
+  .portfoliotema a {
     font-family: "sonderregular";
-    font-size: 80px;
-    margin-bottom: 50px;
+    font-size: 170px;
+    color: #b793ff;
+    text-decoration: none;
   }
 
-  .cv p {
+  .portfoliotema a:hover {
+    color: #ffd2f6;
+  }
+
+  .portfoliotema h2 {
     font-family: "livvic";
-    font-size: 30px;
-    line-height: 1.5;
-  }
-
-  .cv ul li {
-    font-family: "livvic";
-    font-size: 30px;
-    line-height: 1.5;
-    list-style: none;
-  }
-
-  .cvskills {
-    background-color: #ffd2f6;
-    width: 700px;
-    border-radius: 50px;
-    padding: 100px;
-  }
-
-  .hvemerjeg,
-  .erfaring,
-  .uddannelse {
-    background-color: #ffd2f6;
-    width: 1400px;
-    border-radius: 50px;
-    padding: 100px;
+    font-size: 50px;
+    color: #b793ff;
+    padding-bottom: 85px;
   }
 
   /*TEMA 2*/
@@ -1719,6 +1628,202 @@ body,
     color: black;
   }
 
+  .t4indhold {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 00px;
+  }
+
+  .t4indhold p {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .t4gridskitser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 200px;
+  }
+
+  .t4gridskitser3,
+  .t4gridillustrationer3 {
+    order: 2;
+  }
+
+  .t4gridillustrationer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 200px;
+  }
+
+  .t4gridskitser img,
+  .t4gridillustrationer img {
+    width: 1100px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+
+  .t4illustrationer2,
+  .t4skitser1,
+  .t4skitser2,
+  .t4illustrationer1 {
+    background-color: #aaaeff;
+    width: 700px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t4illustrationer1 p {
+    padding-bottom: 80px;
+  }
+
+  .t4illustrationer1 a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 30px;
+    background-color: #fffcf6;
+    color: black;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-right: 110px;
+    padding-bottom: 40px;
+    padding-left: 110px;
+    margin-top: 200px;
+  }
+
+  .t4illustrationer1 a:hover {
+    color: #ffd2f6;
+  }
+
+  .spilelementer {
+    display: flex;
+    gap: 100px;
+    margin-top: 150px;
+  }
+
+  @keyframes pulse {
+    0% {
+      scale: 1;
+    }
+    50% {
+      scale: 1.1;
+    }
+    100% {
+      scale: 1;
+    }
+  }
+
+  @keyframes drej {
+    0% {
+      transform: rotate(0);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .play_knap {
+    width: 90%;
+    position: relative;
+    aspect-ratio: 79/29;
+    background-image: url(img/t4play.svg);
+    background-size: cover;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+    margin-left: 110px;
+  }
+
+  #truffle_container {
+    width: 50%;
+    aspect-ratio: 4/5;
+    position: relative;
+    top: 15%;
+    animation: drej 2s infinite;
+  }
+  #truffle_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/t4truffle.svg);
+    background-size: cover;
+  }
+
+  #poop_container {
+    width: 50%;
+    aspect-ratio: 4/5;
+    position: relative;
+    top: 15%;
+    animation: drej 2s infinite;
+  }
+  #poop_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/t4poop.svg);
+    background-size: cover;
+  }
+
+  #stone_container {
+    width: 50%;
+    aspect-ratio: 4/5;
+    position: relative;
+    top: 15%;
+    animation: drej 2s infinite;
+  }
+  #stone_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/t4stone.svg);
+    background-size: cover;
+  }
+
+  .t4header {
+    text-align: center;
+    background-color: #aaaeff;
+    width: 2300px;
+    border-radius: 50px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+  }
+
+  .t4header h2 {
+    font-family: "sonderregular";
+    font-size: 130px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .t4kodninggrid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+  }
+
+  .t4kodningtekst {
+    background-color: #aaaeff;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t4aktivitet img {
+    width: 1200px;
+    border-radius: 50px;
+  }
+
+  .t4statemachine img {
+    margin-top: 100px;
+    width: 2300px;
+    border-radius: 50px;
+  }
+
   /*TEMA 5*/
 
   .tema5top {
@@ -1783,34 +1888,127 @@ body,
     gap: 50px;
   }
 
-  /*PORTFOLIO*/
+  /*OM MIG*/
 
-  .portfoliotema {
-    display: grid;
-    grid-template-columns: 900px 900px;
-    text-align: center;
-    padding-top: 170px;
-    gap: 100px;
-    padding-left: 450px;
+  .ommigtop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 280px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
-  .portfoliotema a {
+  .ommigtoptekst {
+    order: 1;
+    background-color: #ffecbb;
+    width: 1200px;
+    height: 1000px;
+    border-radius: 50px;
+    padding: 130px;
+    margin-bottom: 100px;
+  }
+
+  .ommigbillede {
+    order: 2;
+  }
+
+  .ommigbillede img {
+    width: 700px;
+    height: 1000px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .ommigtoptekst h2 {
     font-family: "sonderregular";
-    font-size: 170px;
-    color: #b793ff;
-    text-decoration: none;
+    font-size: 100px;
+    margin-bottom: 70px;
   }
 
-  .portfoliotema a:hover {
-    color: #ffd2f6;
-  }
-
-  .portfoliotema h2 {
+  .ommigtoptekst p {
     font-family: "livvic";
-    font-size: 50px;
-    color: #b793ff;
-    padding-bottom: 85px;
+    font-size: 30px;
+    line-height: 1.5;
   }
+
+  .cv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 200px;
+  }
+
+  .cvoverskift {
+    text-align: center;
+    background-color: #ffd2f6;
+    width: 2300px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+
+  .cvoverskift h2 {
+    font-family: "sonderregular";
+    font-size: 130px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .ommiggrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 220px;
+  }
+
+  .ommiggrid2 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .sprog {
+    margin-top: 900px;
+  }
+
+  .cv h3 {
+    font-family: "sonderregular";
+    font-size: 80px;
+    margin-bottom: 50px;
+  }
+
+  .cv p {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .cv ul li {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+    list-style: none;
+  }
+
+  .cvskills {
+    background-color: #ffd2f6;
+    width: 700px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .hvemerjeg,
+  .erfaring,
+  .uddannelse {
+    background-color: #ffd2f6;
+    width: 1400px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  /*FOOTER*/
 
   footer {
     background-color: #b793ff;
