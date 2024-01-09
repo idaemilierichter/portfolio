@@ -236,14 +236,6 @@ body,
     line-height: 1.5;
   }
 
-  .cv {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-  }
-
   .cvoverskift {
     background-color: #ffd2f6;
     width: 900px;
@@ -1633,7 +1625,7 @@ body,
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 00px;
+    margin-bottom: 200px;
   }
 
   .t4indhold p {
@@ -1886,6 +1878,297 @@ body,
     display: flex;
     flex-direction: column;
     gap: 50px;
+  }
+
+  .t5header {
+    text-align: center;
+    background-color: #fffad5;
+    width: 2300px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }
+
+  .t5header h2 {
+    font-family: "sonderregular";
+    font-size: 130px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .t5indhold {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+
+  .t5indhold p {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .t5gridvideosite1,
+  .t5gridvideosite2,
+  .t5redesigngammel,
+  .t5designgrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+  }
+
+  .t5designgridvideo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 400px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+  }
+
+  .videositetekst1 {
+    background-color: #fffad5;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  iframe {
+    aspect-ratio: 16/9;
+    width: 1200px;
+    height: auto;
+    border-radius: 50px;
+  }
+
+  .videositebilleder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .videositebilleder img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .videositetekst2 {
+    background-color: #fffad5;
+    width: 1200px;
+    border-radius: 50px;
+    padding: 100px;
+    order: 2;
+  }
+
+  .virksomhedgammel {
+    background-color: #fffad5;
+    width: 1300px;
+    border-radius: 50px;
+    padding: 100px;
+    order: 2;
+  }
+
+  .virksomhedgammel1 img,
+  .virksomhedgammel2 img {
+    width: 900px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .virksomhedgammel3 img {
+    width: 1300px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .virksomhedny2 {
+    order: 2;
+  }
+
+  .billederbageri {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .billederbageri img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .virksomhedny1 {
+    background-color: #fffad5;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t5moodboard img {
+    width: 1300px;
+    border-radius: 100px;
+  }
+
+  .virksomhedny2 {
+    background-color: #fffad5;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t5wireframe img {
+    width: 1300px;
+    border-radius: 100px;
+    height: 750px;
+    object-fit: cover;
+  }
+
+  .virksomhedny3 {
+    background-color: #fffad5;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  video {
+    max-width: 900px;
+    height: auto;
+    border-radius: 50px;
+  }
+
+  .virksomhedny4 {
+    background-color: #fffad5;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t5styletile img {
+    width: 1300px;
+    border-radius: 100px;
+    height: 800px;
+    object-fit: cover;
+  }
+
+  .t5prototype img {
+    width: 2300px;
+    border-radius: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  .t5gridkodning {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+  }
+
+  .virksomhedny5,
+  .virksomhedny8 {
+    order: 2;
+  }
+
+  .virksomhedny5 {
+    background-color: #fffad5;
+    width: 800px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t5kodningbilledergrid img {
+    width: 1300px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+
+  .t5burgermenu img {
+    width: 580px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .t5scroll img {
+    width: 1550px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .virksomhedny6,
+  .virksomhedny7 {
+    background-color: #fffad5;
+    width: 1000px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t5bertgammel img {
+    width: 1100px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .virksomhedny8 {
+    background-color: #fffad5;
+    width: 700px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t5lighthouse img {
+    width: 1400px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .t5testgrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 220px;
+    margin-top: 100px;
+  }
+
+  .virksomhedny9 {
+    background-color: #fffad5;
+    width: 1400px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t5knapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 300px;
+  }
+
+  .t5knapper a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 40px;
+    background-color: #fffad5;
+    color: black;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 700px;
+  }
+
+  .t5knapper a:hover {
+    color: #b793ff;
   }
 
   /*OM MIG*/
