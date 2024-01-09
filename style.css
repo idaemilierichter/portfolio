@@ -35,10 +35,6 @@ body {
   background-color: #fffcf6;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body,
 .forsidebaggrund,
 .portfoliobaggrund {
@@ -46,6 +42,8 @@ body,
   padding: 0;
   box-sizing: border-box;
 }
+
+/*NAV BAR OG BURGERMENU*/
 
 .forsidebaggrund .navbar {
   display: flex;
