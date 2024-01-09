@@ -103,6 +103,13 @@ body,
 }
 
 @media (max-width: 1300px) {
+  body,
+  .forsidebaggrund,
+  .portfoliobaggrund {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   main {
     display: flex;
     justify-content: center;
@@ -326,6 +333,16 @@ body,
     line-height: 1.5;
   }
 
+  .ommiggrid,
+  .ommiggrid2,
+  .cv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
   /*TEMA 2*/
 
   .htmlbillede2 {
@@ -448,6 +465,17 @@ body,
   .cssbillede img {
     width: 1000px;
     border-radius: 50px;
+  }
+
+  .t3gridhtml,
+  .t3gridhtml2,
+  .cssgrid1,
+  .cssgrid2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
   }
 
   /*TEMA 3*/
@@ -594,6 +622,26 @@ body,
 
   .testknapper a:hover {
     color: #b793ff;
+  }
+
+  .t3grid1,
+  .t3grid2,
+  .t3grid3,
+  .t3grid4,
+  .t3grid5,
+  .t3grid6,
+  .t3grid7,
+  .t3grid8,
+  .t3grid9,
+  .t3grid4billeder,
+  .t2hiddengrid1,
+  .t2hiddengrid2,
+  .t3testgrid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
   }
 
   /*TEMA 4*/
@@ -794,6 +842,17 @@ body,
     background-size: cover;
   }
 
+  .t4gridskitser,
+  .t4gridillustrationer,
+  .t4kodninggrid,
+  .t4gridillustrationer4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
   /*TEMA 5*/
   .tema5top {
     text-align: center;
@@ -959,6 +1018,21 @@ body,
     width: 450px;
     height: 450px;
     object-fit: cover;
+  }
+
+  .t5gridvideosite1,
+  .videositeiframe,
+  .t5gridvideosite2,
+  .t5redesigngammel,
+  .t5designgrid,
+  .t5designgridvideo,
+  .t5gridkodning,
+  .t5testgrid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
   }
 
   /*FOOTER*/
@@ -1924,10 +1998,9 @@ body,
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 400px;
-    margin-top: 100px;
+    gap: 200px;
+    padding-top: 100px;
     margin-right: 100px;
-    margin-bottom: 200px;
   }
 
   .videositetekst1 {
@@ -1937,7 +2010,7 @@ body,
     padding: 100px;
   }
 
-  iframe {
+  .videositeiframe iframe {
     aspect-ratio: 16/9;
     width: 1200px;
     height: auto;
@@ -1999,8 +2072,8 @@ body,
   }
 
   .billederbageri img {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     border-radius: 50px;
   }
@@ -2024,6 +2097,13 @@ body,
     padding: 100px;
   }
 
+  .virksomhediframe iframe {
+    aspect-ratio: 16/9;
+    width: 1050px;
+    height: auto;
+    border-radius: 50px;
+  }
+
   .t5wireframe img {
     width: 1300px;
     border-radius: 100px;
@@ -2033,13 +2113,13 @@ body,
 
   .virksomhedny3 {
     background-color: #fffad5;
-    width: 900px;
+    width: 1050px;
     border-radius: 50px;
     padding: 100px;
   }
 
   video {
-    max-width: 900px;
+    max-width: 1000px;
     height: auto;
     border-radius: 50px;
   }
