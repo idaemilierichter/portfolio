@@ -574,6 +574,9 @@ body,
     font-size: 25px;
     line-height: 1.5;
   }
+  .t3lighthouse {
+    order: 1;
+  }
 
   .testknapper {
     display: flex;
@@ -581,6 +584,7 @@ body,
     justify-content: center;
     text-align: center;
     gap: 50px;
+    order: 2;
   }
 
   .testknapper a {
@@ -1380,6 +1384,289 @@ body,
 
   .tema3billede {
     order: 1;
+  }
+
+  .t3header {
+    text-align: center;
+    background-color: #ffd2f6;
+    width: 2300px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+
+  .t3header h2 {
+    font-family: "sonderregular";
+    font-size: 130px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .t3grid1,
+  .t3grid2,
+  .t3grid3,
+  .t3grid4,
+  .t3grid5,
+  .t3grid6,
+  .t3grid7,
+  .t3grid8,
+  .t3grid9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 100px;
+  }
+
+  .researchtekst1,
+  .researchtekst2,
+  .reviewtekst,
+  .processtekst,
+  .takside,
+  .kodetekst3 {
+    order: 2;
+  }
+
+  .t3moodboard,
+  .t3storyboard,
+  .t3review,
+  .t3process,
+  .t3takside,
+  .t3grid4billeder {
+    order: 1;
+  }
+
+  .t3solution {
+    order: 3;
+  }
+  .t3research p {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .t3research {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+  .researchtekst1 {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t3moodboard img {
+    border-radius: 100px;
+    width: 1300px;
+    height: 750px;
+    object-fit: cover;
+  }
+
+  .researchtekst2 {
+    background-color: #ffd2f6;
+    width: 700px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t3storyboard img,
+  .t3solution img {
+    width: 700px;
+    border-radius: 50px;
+  }
+
+  .t3wireframe img,
+  .t3prototype img {
+    width: 2300px;
+    border-radius: 50px;
+    margin-bottom: 100px;
+  }
+
+  .researchtekst3 {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t3styletile img {
+    border-radius: 50px;
+    width: 1300px;
+    height: 800px;
+    object-fit: cover;
+  }
+
+  .reviewtekst,
+  .processtekst,
+  .takside {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t3review img,
+  .t3process img,
+  .t3takside img {
+    border-radius: 50px;
+    width: 1300px;
+    object-fit: cover;
+  }
+
+  .t3kodning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+  .t3kodning p {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .kodetekst1,
+  .kodetekst2 {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t3layoutdiagram img {
+    border-radius: 50px;
+    width: 1300px;
+    height: 1000px;
+    object-fit: cover;
+  }
+
+  .t3sitemap img {
+    border-radius: 50px;
+    width: 1300px;
+    object-fit: cover;
+  }
+
+  .t3grid4billeder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .t3gridbillede1 img,
+  .t3gridbillede3 img {
+    width: 600px;
+    height: 750px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  .t3gridbillede2 img,
+  .t3grid4billede4 img {
+    width: 600px;
+    height: 300px;
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  .kodetekst3 {
+    background-color: #ffd2f6;
+    width: 900px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t2hiddengrid1,
+  .t2hiddengrid2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .hidden1 img,
+  .hidden3 img {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .hidden2 img,
+  .hidden4 img {
+    width: 1400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .t3test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 200px;
+  }
+
+  .t3test p {
+    font-family: "livvic";
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .t3testgrid {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  }
+
+  .testtekst1 {
+    background-color: #ffd2f6;
+    width: 1100px;
+    border-radius: 50px;
+    padding: 100px;
+  }
+
+  .t3testgrid1 {
+    order: 2;
+  }
+
+  .t3testgrid2 {
+    margin-top: 50px;
+  }
+
+  .t3lighthouse img {
+    width: 1000px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .testknapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 100px;
+  }
+
+  .testknapper a {
+    text-decoration: none;
+    font-family: "sonderregular";
+    font-size: 40px;
+    background-color: #ffd2f6;
+    color: black;
+    border-radius: 75px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 500px;
+  }
+
+  .testknapper a:hover {
+    color: #b793ff;
   }
 
   /*TEMA 4*/
